@@ -8,6 +8,10 @@ This call brought together a diverse group of thinkers to explore the nature of 
 
 The central question: **Are we experiencing a decline in curiosity, or are we simply observing different manifestations of this fundamental human trait?**
 
+## About This Wiki Website
+
+This paragraph was written by Peter Kaminski. The rest of this site was assembled by Claude Code, starting from the call transcript, call chat, and Excalidraw screenshot. **There are certainly errors and omissions.** This is part of Pete's experiments in AI-driven summarization and expansion of topics. It is interesting, hopefully somewhat useful, but don't consider it a finished work.
+
 ## Explore This Wiki
 
 **New here? → [[Start Here]]** - Choose your path based on your interests
