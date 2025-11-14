@@ -5,7 +5,7 @@ During the OGM curiosity call, [[Victoria (Spain)]] and [[Jerry Michalski]] faci
 ## Live Board
 
 **Access the live collaborative board:**
-https://excalidraw.com/#room=f2fc1ed4dad8ce25b385,JsA211Hzb_1dUSb-gwYctQ
+<https://excalidraw.com/#room=f2fc1ed4dad8ce25b385,JsA211Hzb_1dUSb-gwYctQ>
 
 ## Board Preview
 
