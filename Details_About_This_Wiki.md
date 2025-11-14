@@ -117,8 +117,8 @@ Different users can:
 ## Visual Artifacts
 
 The call included a collaborative [[Excalidraw]] board:
-- Link: https://excalidraw.com/#room=f2fc1ed4dad8ce25b385,JsA211Hzb_1dUSb-gwYctQ
-- Snapshot: `Call Artifacts/excalidraw-snapshot-2025-11-13.png`
+- Link: <https://excalidraw.com/#room=f2fc1ed4dad8ce25b385,JsA211Hzb_1dUSb-gwYctQ>
+- Snapshot: [Call Artifacts/excalidraw-snapshot-2025-11-13.png](call_artifacts/excalidraw-snapshot-2025-11-13.png)
 
 The visual board captured non-linear connections and collective sense-making in real-time.
 
