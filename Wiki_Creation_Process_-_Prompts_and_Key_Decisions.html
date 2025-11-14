@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Creation Process - Prompts and Key Decisions - OGM 2025-11-13</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//markpub-static/css/style.css">
+    <link rel="stylesheet" href="//markpub-static/css/custom.css">
+    <link rel="stylesheet" href="https://unpkg.com/bluesky-comments@0.9.0/dist/bluesky-comments.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
+    <script src="//lunr-index-1763097315.701414.js"></script>
+    <script>var index = lunr.Index.load(lunr_index)</script>
+    
+    
+    <script src="//lunr-posts-1763097315.701414.js"></script>
+    <script> function randomPageLink() { return "/"+lunr_posts[Math.floor(Math.random() * lunr_posts.length)].link; } </script>
+    
+  </head>
+<body>
+  <div id="header">
+    <span id="hamburger-btn"
+    class="hidden">&#9776;</span><a class="button is-light" id="header-link" href="//index.html">OGM 2025-11-13</a>
+  </div>
+
+  <div class="container" id="flex-container">
+    <div id="side-column">
+      <div>
+        <button id="hide-btn">Hide</button>
+        <button id="move-btn" class="hidden">Move to Sidebar</button>
+      </div>
+      <h3>Site Navigation</h3>
+<div class="navlinks">
+<ul>
+<li><a class="wikilink" href="//README.html">Home</a></li>
+<li><a href="//search.html">Search</a></li>
+<li><a class="wikilink" href="//Start_Here.html">Start Here</a></li>
+<li><a class="wikilink" href="//Participants_Hub.html">Participants Hub</a></li>
+<li><a class="wikilink" href="//Themes_Hub.html">Themes Hub</a></li>
+<li>*<a class="wikilink" href="//Frameworks_Hub.html">Frameworks Hub</a></li>
+<li><a class="wikilink" href="//Concept_Index.html">Concept Index</a></li>
+<li><a class="wikilink" href="//Alphabetical_Index.html">Alphabetical Index</a></li>
+<li><a class="wikilink" href="//Details_About_This_Wiki.html">Details About This Wiki</a></li>
+<li><a class="wikilink" href="//Work_Log.html">Work Log</a></li>
+<li><a href="//all-pages.html">All Pages</a></li>
+<li><a href="//recent-pages.html">Recent Changes</a></li>
+</ul>
+</div>
+<div class="navlinks">
+  <button onclick="location.href=`${randomPageLink()}`">
+    Random Page
+  </button>
+</div>
+<p>Download a <a href="https://github.com/peterkaminski/ogm-2025-11-13/archive/refs/heads/main.zip">zip file of<br />
+all pages</a><br />
+for Obsidian or LLMs.</p>
+<p><strong>WORK IN PROGRESS:<br />
+PAGES NOT YET REVIEWED BY<br />
+HUMAN EXPERTS. VERIFY<br />
+CLAIMS AND CONSULT<br />
+ORIGINAL SOURCES FOR<br />
+AUTHORITATIVE INFORMATION.</strong></p>
+<hr />
+<p><a class="wikilink" href="//Contact_Peter_Kaminski.html">Contact Peter Kaminski</a></p>
+
+    </div>
+
+    <div id="main-column">
+      
+      <div> <!-- edit this page button -->
+	<p style="float:right; margin:.5em .5em
+	.5em"><a target="_blank" href="https://github.com/peterkaminski/ogm-2025-11-13/edit/main/Wiki Creation Process - Prompts and Key Decisions.md"
+	class="edit-this-page-button">Edit on GitHub</a></p>
+	<br clear="all">
+      </div> <!-- edit this page button -->
+      
+      <h1>Wiki Creation Process - Prompts and Key Decisions</h1>
+<p>This document captures the key prompts and decisions made during the creation of this comprehensive wiki from the OGM 2025-11-13 call. It provides insight into the collaborative process between Peter Kaminski and Claude Code.</p>
+<hr />
+<h2>Session 1: Initial Wiki Creation</h2>
+<h3>Prompt 1: Project Initiation</h3>
+<p><strong>User prompt:</strong></p>
+<blockquote>
+<p>"Read and follow the instructions in the repo."</p>
+</blockquote>
+<p><strong>Context:</strong> First message of the project. The repository contained <code>Instructions for AI Assistant.md</code> with detailed methodology for creating a comprehensive wiki from call artifacts (transcript, chat, Excalidraw board).</p>
+<p><strong>Actions taken:</strong></p>
+<ul>
+<li>Read the instructions file, which specified creating participant pages, theme pages, concept pages, and supporting infrastructure</li>
+<li>Read complete chat logs (560 lines, 146 messages)</li>
+<li>Read Excalidraw snapshot</li>
+<li>Read first 1000 lines of 3618-line transcript</li>
+<li>Identified 16 participants, 7 major themes, 20+ concepts/frameworks</li>
+<li>Created 43 initial pages: 16 participant pages, 7 major theme pages, 12 concept/framework pages, 6 organization/people pages, 4 meta pages (README, Details, Index, Work Log)</li>
+<li>Used extensive <code>[[Double Square Bracket Links]]</code> for cross-referencing</li>
+<li>Committed and pushed to branch</li>
+</ul>
+<p><strong>Key design decisions:</strong></p>
+<ul>
+<li>Flat file structure (all pages at repository root)</li>
+<li>Preserve participant voices through direct quotes</li>
+<li>Create bidirectional connections between related topics</li>
+<li>Link generously to enable discovery</li>
+<li>Keep tone informative, not prescriptive</li>
+</ul>
+<hr />
+<h2>Session 1: Orphan Link Resolution</h2>
+<h3>Prompt 2: Orphan Page Creation</h3>
+<p><strong>User prompt:</strong></p>
+<blockquote>
+<p>"There are orphan links, create pages for them. Consider whether it's easier to look for them with your existing tools, or if you'd rather trust a small script you write and run. If you write a script, add it to a new directory, <code>_bin</code>."</p>
+</blockquote>
+<p><strong>Context:</strong> Initial wiki creation included many <code>[[links]]</code> to topics mentioned but not yet created as full pages.</p>
+<p><strong>Actions taken:</strong></p>
+<ul>
+<li>Chose to write a Python script rather than manual search, for systematic completeness</li>
+<li>Created <code>_bin/find-orphan-links.py</code> to identify all wiki links without corresponding pages</li>
+<li>Script found 95 orphan links across the wiki</li>
+<li>Created all 95 pages (mostly stubs for briefly mentioned topics)</li>
+<li>Categories: conceptual (45), technology (8), DSRP/systems (5), reference (37)</li>
+<li>Updated script to handle <code>[[Page|display text]]</code> syntax after initial run</li>
+<li>Committed 96 files (95 pages + script)</li>
+</ul>
+<p><strong>Key technical decision:</strong> Systematic scripting over manual search ensures completeness and creates reusable tooling.</p>
+<hr />
+<h2>Session 1: Chat Coverage Analysis</h2>
+<h3>Prompt 3: Cross-Comparison Methodology</h3>
+<p><strong>User prompt:</strong></p>
+<blockquote>
+<p>"Reviewing some of the stub pages (formerly orphan links), I'm finding a few that had some discussion in the chat. Formulate a way to cross-compare the chat and the pages in the wiki to pick up mentions that were missed in previous passes, and write your thoughts into the work log, then let me know."</p>
+</blockquote>
+<p><strong>Context:</strong> User discovered that some stub pages had actually been discussed substantively in the chat logs, which had been only partially integrated in the initial creation.</p>
+<p><strong>Actions taken:</strong></p>
+<ul>
+<li>Created <code>_bin/analyze-chat-coverage.py</code> (147 lines) to systematically cross-compare chat content with wiki pages</li>
+<li>Script parsed all 146 chat messages with timestamps</li>
+<li>Identified substantive messages (&gt;100 characters)</li>
+<li>Extracted topic keywords and matched to wiki pages</li>
+<li>Measured wiki page sizes to find gaps</li>
+<li>Analysis revealed: major topics already had good coverage (100+ lines each), 56 stub pages were appropriately minimal</li>
+<li>Key insight: Real enrichment opportunity was in the unread 2,600+ lines of transcript</li>
+<li>Documented full methodology in Work Log</li>
+<li>Committed analysis script and updated Work Log</li>
+</ul>
+<p><strong>Methodological insight:</strong> The script confirmed most stubs were appropriate, but pointed to transcript as the primary enrichment source.</p>
+<hr />
+<h3>Prompt 4: Git Hygiene</h3>
+<p><strong>User prompt (via stop hook):</strong></p>
+<blockquote>
+<p>"Stop hook feedback: [~/.claude/stop-hook-git-check.sh]: There are uncommitted changes in the repository. Please commit and push these changes to the remote branch."</p>
+</blockquote>
+<p><strong>Context:</strong> Git stop hook detected uncommitted changes after creating analysis script.</p>
+<p><strong>Actions taken:</strong></p>
+<ul>
+<li>Immediately committed Work Log and analysis script</li>
+<li>Pushed to remote branch</li>
+</ul>
+<p><strong>Process note:</strong> Git hooks ensure clean state between work sessions.</p>
+<hr />
+<h2>Session 1: Systematic Transcript Enrichment</h2>
+<h3>Prompt 5: Comprehensive Enrichment</h3>
+<p><strong>User prompt:</strong></p>
+<blockquote>
+<p>"Systematically work through the chat and the transcript to enrich pages in the wiki as needed."</p>
+</blockquote>
+<p><strong>Context:</strong> Chat analysis showed the real enrichment opportunity was in the unread 2,600+ lines of transcript (only first 1000 of 3618 lines had been read initially).</p>
+<p><strong>Actions taken:</strong></p>
+<p><strong>Phase 1 - Complete Transcript Reading:</strong></p>
+<ul>
+<li>Read transcript lines 1000-2000 (618 lines)</li>
+<li>Read transcript lines 2000-3000 (1000 lines)</li>
+<li>Read transcript lines 3000-3618 (618 lines)</li>
+<li>Total transcript analyzed: 3618/3618 lines (100% coverage)</li>
+</ul>
+<p><strong>Phase 2 - Cross-Reference with Existing Pages:</strong></p>
+<ul>
+<li>Identified pages needing enrichment based on transcript content</li>
+<li>Prioritized pages with substantial missing content</li>
+<li>Noted specific line numbers for reference</li>
+</ul>
+<p><strong>Phase 3 - Systematic Page Enrichment:</strong></p>
+<ul>
+<li>Enriched 10 major pages with deep, substantive content</li>
+<li>Added ~2,600 lines of new content across pages</li>
+<li>40+ new substantive quotes added</li>
+<li>6 major story narratives documented</li>
+<li>Preserved participant voices through direct quotes</li>
+</ul>
+<p><strong>Pages significantly enriched:</strong></p>
+<ol>
+<li><strong>Noticing and Attention.md</strong> - Rebuilt from nearly empty stub with Stacey's foundational three-category distinction</li>
+<li><strong>John Kelly.md</strong> - Added 5 major sections: teaching at all levels, "militantly uncurious students," what-how-why hierarchy, indirect learning, hyperbaric chamber</li>
+<li><strong>Question Formulation Technique.md</strong> - Added complete methodology with Victoria's Greek mythology transformation story</li>
+<li><strong>Kevin Jones.md</strong> - Added three powerful stories (Ben Santer's briar patch, Cherokee decision-making, cobra in Rajasthan)</li>
+<li><strong>Stacey Druss.md</strong> - Added fear of asking about illness, noticing vs curiosity distinction</li>
+<li><strong>Eve Blossom.md</strong> - Added concrete somatic practices ("going to the creek, looking at the tadpoles")</li>
+<li><strong>Gil Friend.md</strong> - Added Pride and Prejudice norms discussion, "Who's we, who's they?"</li>
+<li><strong>LP1 (Louise).md</strong> - Added 40-year teaching observations, calculator dependency</li>
+<li><strong>Doug Breitbart.md</strong> - Added connection philosophy, hypersocial son story</li>
+<li><strong>Victoria (Spain).md</strong> - Added full QFT advocacy and methodology</li>
+</ol>
+<p><strong>Methodological insights documented in Work Log:</strong></p>
+<ul>
+<li>Participant pages benefit most from story and narrative additions</li>
+<li>Concept pages benefit from methodological detail and examples</li>
+<li>Some participants are storytellers (Kevin), others theorists (Scott)</li>
+<li>Transcript contains richer detail than chat for most topics</li>
+<li>Direct quotes &gt; paraphrasing for participant pages</li>
+</ul>
+<p><strong>Committed and pushed:</strong> 11 files modified with comprehensive enrichment</p>
+<hr />
+<h2>Session 2: Continuation After Context Limit</h2>
+<h3>Prompt 6: Session Resumption</h3>
+<p><strong>User prompt:</strong></p>
+<blockquote>
+<p>"This session is being continued from a previous conversation that ran out of context. The conversation is summarized below: [detailed summary]... Please continue the conversation from where we left it off without asking the user any further questions. Continue with the last task that you were asked to work on."</p>
+</blockquote>
+<p><strong>Context:</strong> First session hit token limit. User provided comprehensive summary of all prior work.</p>
+<p><strong>Actions taken:</strong></p>
+<ul>
+<li>Reviewed summary to understand complete context</li>
+<li>Noted that systematic transcript enrichment (Prompt 5) had been completed</li>
+<li>Recognized all major participant pages now had comprehensive coverage</li>
+<li>Continued workflow seamlessly from previous session</li>
+</ul>
+<p><strong>Process note:</strong> Detailed summaries enabled smooth continuation across context boundaries.</p>
+<hr />
+<h2>Session 2: Spelling Corrections and Excalidraw Integration</h2>
+<h3>Prompt 7: Name Correction</h3>
+<p><strong>User prompt:</strong></p>
+<blockquote>
+<p>"search and replace 'Joanne' with 'Johanne'."</p>
+</blockquote>
+<p><strong>Context:</strong> Spelling correction needed across multiple wiki files.</p>
+<p><strong>Actions taken:</strong></p>
+<ul>
+<li>Used Grep to find all occurrences of "Joanne" (9 files found)</li>
+<li>Replaced "Joanne" with "Johanne" in 8 wiki files:
+<ul>
+<li>Cultural Dimensions of Curiosity.md</li>
+<li>Curiosity as Social Practice.md</li>
+<li>Gender and Curiosity.md</li>
+<li>Generational Perspectives.md</li>
+<li>Pete Kaminski.md</li>
+<li>Playing Games Model.md</li>
+<li>Power Dynamics.md</li>
+<li>Concept Index.md</li>
+</ul>
+</li>
+<li>Left transcript source file unchanged (source material should remain as-is)</li>
+<li>Committed changes</li>
+</ul>
+<p><strong>Decision:</strong> Source materials (transcript, chat) remain unchanged; wiki pages updated.</p>
+<hr />
+<h3>Prompt 8: Excalidraw Integration Strategy</h3>
+<p><strong>User prompt:</strong></p>
+<blockquote>
+<p>"i think we should include the Excalidraw image, although it's large for a regular web page. how do you think we should proceed?"</p>
+</blockquote>
+<p><strong>Context:</strong> The call used a collaborative Excalidraw whiteboard. Snapshot file is 1.8MB - large for web viewing.</p>
+<p><strong>Response provided 4 options:</strong></p>
+<ol>
+<li><strong>Dedicated Page (Recommended)</strong> - Create page with full-size image, context, links from README</li>
+<li>Thumbnail in README - Resize image, link to full version</li>
+<li>External Viewer Link - If shareable URL available</li>
+<li>Direct Embed in README - Simple but slow loading</li>
+</ol>
+<p><strong>Recommendation:</strong> Option 1 (dedicated page) to respect importance while keeping wiki performant.</p>
+<hr />
+<h3>Prompt 9: Excalidraw Page Specifications</h3>
+<p><strong>User prompt:</strong></p>
+<blockquote>
+<p>"1. Yes.</p>
+<ol start="2">
+<li>From the README, link to a page about the Excalidraw whiteboard, and then on that page, collect anything people said about the board. Have an image thumbnail on that page that links to the live board (link was in chat). Also add a markdown web link to the local copy in Call Artifacts."</li>
+</ol>
+</blockquote>
+<p><strong>Context:</strong> User confirmed Option 1 and provided specific requirements.</p>
+<p><strong>Actions taken:</strong></p>
+<ul>
+<li>Searched chat for Excalidraw link: <code>https://excalidraw.com/#room=f2fc1ed4dad8ce25b385,JsA211Hzb_1dUSb-gwYctQ</code></li>
+<li>Created <strong>Excalidraw Board.md</strong> with:
+<ul>
+<li>Live board link</li>
+<li>Image preview linking to full-size snapshot in Call Artifacts</li>
+<li>Context about how board was used during call</li>
+<li>Quotes from participants (Victoria, Scott, Jerry) showing collaboration</li>
+<li>Related participants and themes</li>
+</ul>
+</li>
+<li>Updated README with Excalidraw Board link in Resources section</li>
+<li>Updated Concept Index with Excalidraw Board in Core Pages</li>
+<li>Committed and pushed</li>
+</ul>
+<p><strong>Design choice:</strong> Dedicated page provides context and preserves collaborative history, not just the image.</p>
+<hr />
+<h3>Prompt 10: ELIZA Attribution Correction</h3>
+<p><strong>Context:</strong> User noticed ELIZA was attributed to Pete Kaminski but actually came from Scott Moehring.</p>
+<p><strong>Actions taken:</strong></p>
+<ul>
+<li>Verified in chat: Scott Moehring shared ELIZA link, tagging Pete</li>
+<li>Removed ELIZA from Pete Kaminski.md "Links Shared" section</li>
+<li>Added "ELIZA and Human-AI Interaction" section to Scott Moehring.md</li>
+<li>Added "Links Shared" section to Scott Moehring.md with ELIZA Wikipedia link</li>
+<li>Documented that Scott tagged Pete to discuss anthropomorphization</li>
+<li>Committed correction</li>
+</ul>
+<p><strong>Quality principle:</strong> Accurate attribution of contributions matters.</p>
+<hr />
+<h2>Session 2: Information Accessibility Improvements</h2>
+<h3>Prompt 11: Accessibility Analysis</h3>
+<p><strong>User prompt:</strong></p>
+<blockquote>
+<p>"Think for a bit -- how would you improve information accessibility in this wiki website?"</p>
+</blockquote>
+<p><strong>Context:</strong> Wiki had grown to 140+ pages in flat structure. Request for thoughtful analysis of navigation challenges.</p>
+<p><strong>Analysis provided:</strong></p>
+<p><strong>Challenges identified:</strong></p>
+<ol>
+<li>Navigation/Wayfinding - Flat structure with 140+ files, hard to browse</li>
+<li>Discovery - No search, tags, or backlinks to find related content</li>
+<li>Entry Points - Only one main entry (README), different users need different starts</li>
+<li>Content Organization - Categories exist in index but not as navigation</li>
+<li>Page Structure - Inconsistent templates, hard to scan</li>
+</ol>
+<p><strong>Solutions proposed (prioritized):</strong></p>
+<p><strong>Immediate improvements (no tools required):</strong></p>
+<ol>
+<li>Create 4 Hub Pages (Participants, Themes, Frameworks, Alphabetical)</li>
+<li>Add Navigation Block to README</li>
+<li>Standardize "See Also" Sections</li>
+<li>Create "Start Here" Page</li>
+<li>Add TOCs to long pages</li>
+</ol>
+<p><strong>With simple scripting:</strong>
+6. Generate backlinks
+7. Create tag/topic pages
+8. Build connection graph
+9. Generate statistics</p>
+<p><strong>Structural improvements:</strong>
+10. Add metadata headers
+11. Create reading paths
+12. Build glossary
+13. Add difficulty indicators</p>
+<p><strong>Recommendation:</strong> Start with 3-5 quick wins: hub pages, README navigation, Start Here, "See Also" sections, TOCs.</p>
+<hr />
+<h3>Prompt 12: Implementation</h3>
+<p><strong>User prompt:</strong></p>
+<blockquote>
+<p>"continue"</p>
+</blockquote>
+<p><strong>Context:</strong> Request to implement the accessibility improvements proposed.</p>
+<p><strong>Actions taken:</strong></p>
+<p><strong>Created 5 new hub pages:</strong></p>
+<ol>
+<li>
+<p><strong>Participants Hub.md</strong> (176 lines)</p>
+<ul>
+<li>All 16 contributors organized by role (Facilitators → Core → Supporting)</li>
+<li>Each person with brief bio highlighting key contribution</li>
+<li>Cross-links to other hubs</li>
+</ul>
+</li>
+<li>
+<p><strong>Themes Hub.md</strong> (209 lines)</p>
+<ul>
+<li>7 major themes organized by type (Core Questions, Dimensions, Contemporary Challenges)</li>
+<li>Each theme with summary, key insights, entry points</li>
+<li>Cross-cutting themes highlighted</li>
+<li>Emoji icons for visual hierarchy (🔍🌍🤖)</li>
+</ul>
+</li>
+<li>
+<p><strong>Frameworks Hub.md</strong> (207 lines)</p>
+<ul>
+<li>Tools organized by category (Question-Generation, Conceptual, Classical, Practical)</li>
+<li>Each framework with description, "Use when," key insights</li>
+<li>Quick reference guide at end</li>
+</ul>
+</li>
+<li>
+<p><strong>Alphabetical Index.md</strong> (216 lines)</p>
+<ul>
+<li>Complete A-Z of all 147 pages</li>
+<li>Quick navigation bar with jump links</li>
+<li>Organized by letter for easy scanning</li>
+</ul>
+</li>
+<li>
+<p><strong>Start Here.md</strong> (200 lines)</p>
+<ul>
+<li>6 curated paths by interest (educators, practitioners, researchers, etc.)</li>
+<li>"Essential 10 pages" for time-limited readers</li>
+<li>Browse by organization/depth/format</li>
+<li>Navigation tips</li>
+</ul>
+</li>
+</ol>
+<p><strong>Enhanced README:</strong></p>
+<ul>
+<li>Added "Explore This Wiki" section after Overview</li>
+<li>Links to Start Here and all 4 hub pages</li>
+<li>Emoji icons for visual scanning</li>
+</ul>
+<p><strong>Impact:</strong></p>
+<ul>
+<li>Multiple entry points for different user needs</li>
+<li>Browsable by person/theme/tool/alphabet</li>
+<li>Reduces navigation friction from 140+ flat files</li>
+<li>Curated paths for newcomers</li>
+<li>A-Z index for quick reference</li>
+</ul>
+<p><strong>Committed and pushed:</strong> 6 files (5 new hubs + README update)</p>
+<hr />
+<h2>Key Principles Established</h2>
+<h3>Content Quality</h3>
+<ol>
+<li><strong>Preserve voices</strong> - Use direct quotes to let participants speak</li>
+<li><strong>Provide context</strong> - Frame quotes for comprehension</li>
+<li><strong>Maintain links</strong> - Extensive cross-referencing enables discovery</li>
+<li><strong>Document process</strong> - Work Log tracks methodology and decisions</li>
+<li><strong>Accurate attribution</strong> - Credit contributions correctly</li>
+</ol>
+<h3>Technical Approach</h3>
+<ol>
+<li><strong>Systematic over manual</strong> - Scripts ensure completeness</li>
+<li><strong>Reusable tools</strong> - Python scripts in <code>_bin/</code> can be run again</li>
+<li><strong>Git hygiene</strong> - Commit frequently, push regularly</li>
+<li><strong>Source preservation</strong> - Don't modify original artifacts (transcript, chat)</li>
+<li><strong>Flat structure</strong> - Simple filesystem organization, complex linking</li>
+</ol>
+<h3>Information Architecture</h3>
+<ol>
+<li><strong>Multiple entry points</strong> - Different users need different starts</li>
+<li><strong>Hub pages</strong> - Organize by type (people, themes, tools, A-Z)</li>
+<li><strong>Curated paths</strong> - Guide users based on interests</li>
+<li><strong>Progressive disclosure</strong> - Start simple, enable deep exploration</li>
+<li><strong>Cross-linking</strong> - Every page connects to 5-10 related pages</li>
+</ol>
+<hr />
+<h2>Metrics</h2>
+<p><strong>Final wiki statistics:</strong></p>
+<ul>
+<li><strong>152 total pages</strong> (147 content + 5 hub pages)</li>
+<li><strong>16 participant pages</strong> - each with bios, quotes, contributions</li>
+<li><strong>7 major theme pages</strong> - synthesizing conversations</li>
+<li><strong>95+ concept pages</strong> - specific topics and ideas</li>
+<li><strong>12 framework/tool pages</strong> - practical methodologies</li>
+<li><strong>5 hub pages</strong> - navigation and discovery</li>
+<li><strong>5 meta pages</strong> - README, Details, Index, Work Log, Wiki Creation Process</li>
+</ul>
+<p><strong>Content coverage:</strong></p>
+<ul>
+<li>3618/3618 transcript lines analyzed (100%)</li>
+<li>560/560 chat lines analyzed (100%)</li>
+<li>40+ substantive quotes added in enrichment phase</li>
+<li>6 major narrative stories documented</li>
+<li>~2,600 lines of enriched content added</li>
+</ul>
+<p><strong>Development process:</strong></p>
+<ul>
+<li>2 working sessions (1 hit context limit)</li>
+<li>Python scripts created: 2 (<code>find-orphan-links.py</code>, <code>analyze-chat-coverage.py</code>)</li>
+<li>Git commits: 6 major commits</li>
+<li>Branch: <code>claude/follow-repo-instructions-019ctjHQcaAaiM6kceoxgAjZ</code></li>
+</ul>
+<hr />
+<h2>Lessons Learned</h2>
+<h3>What Worked Well</h3>
+<ol>
+<li><strong>Systematic transcript reading</strong> before enrichment ensured comprehensive coverage</li>
+<li><strong>Scripts for analysis</strong> found orphans and coverage gaps that manual review would miss</li>
+<li><strong>Preserving voices through quotes</strong> made pages vivid and authentic</li>
+<li><strong>Hub pages</strong> dramatically improved discoverability</li>
+<li><strong>Work Log documentation</strong> enabled process transparency and learning</li>
+</ol>
+<h3>Key Insights</h3>
+<ul>
+<li>Participant pages benefit most from <strong>stories and narratives</strong></li>
+<li>Concept pages benefit from <strong>methodological detail and examples</strong></li>
+<li>Foundational insights deserve <strong>dedicated pages</strong> (like Noticing and Attention)</li>
+<li>Some participants are <strong>storytellers</strong> (Kevin), others <strong>theorists</strong> (Scott)</li>
+<li>The <strong>transcript contains richer detail</strong> than chat for most topics</li>
+</ul>
+<h3>If Starting Over</h3>
+<ol>
+<li>Read entire transcript before creating any pages</li>
+<li>Create hub pages earlier in process</li>
+<li>Standardize page templates from the beginning</li>
+<li>Build backlink generation into initial tooling</li>
+<li>Plan navigation architecture upfront</li>
+</ol>
+<hr />
+<h2>Future Possibilities</h2>
+<h3>Near-term Enhancements</h3>
+<ul>
+<li>Add "See Also" sections to all major pages</li>
+<li>Create TOCs for pages &gt;100 lines</li>
+<li>Generate backlinks ("Referenced by:")</li>
+<li>Build tag/topic pages</li>
+</ul>
+<h3>Medium-term</h3>
+<ul>
+<li>Create reading paths for different audiences</li>
+<li>Add metadata headers for better organization</li>
+<li>Build glossary of key terms</li>
+<li>Generate connection graph visualization</li>
+</ul>
+<h3>Long-term</h3>
+<ul>
+<li>Automated updates when new calls occur</li>
+<li>Integration with other OGM wikis</li>
+<li>Search functionality</li>
+<li>User analytics to improve navigation</li>
+</ul>
+<hr />
+<p><em>This document captures the collaborative wiki creation process as of November 14, 2025.</em></p>
+
+      
+    </div>
+  </div>
+  
+  <footer class="footer">
+  <div class="content has-text-centered">
+    
+    <div><strong>OGM 2025-11-13</strong> by Peter Kaminski.</div>
+    
+    
+    <div>Central repository at <a href="https://github.com/peterkaminski/ogm-2025-11-13">ogm-2025-11-13</a>.</div>
+    
+    
+    <div>Licensed under <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</div>
+    
+    <div><em>Site last updated on Friday, November 14, 2025 at 05:15 UTC.</em></div>
+  </div>
+</footer>
+</body>
+</html>
