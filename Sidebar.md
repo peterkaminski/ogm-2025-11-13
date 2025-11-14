@@ -6,7 +6,7 @@
 - [[Start Here]]  
 - [[Participants Hub]]  
 - [[Themes Hub]]  
-- *[[Frameworks Hub]]  
+- [[Frameworks Hub]]  
 - [[Concept Index]]  
 - [[Alphabetical Index]]  
 - [[Details About This Wiki]]  
