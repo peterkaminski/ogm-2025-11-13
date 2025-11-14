@@ -3,7 +3,12 @@
 {< div class="navlinks" >}
 - [[README|Home]]
 - [Search](/search.html)  
+- [[Start Here]]  
+- [[Participants Hub]]  
+- [[Themes Hub]]  
+- *[[Frameworks Hub]]  
 - [[Concept Index]]  
+- [[Alphabetical Index]]  
 - [[Details About This Wiki]]  
 - [[Work Log]]  
 - [All Pages](/all-pages.html)  
@@ -17,7 +22,7 @@
 {< /div >}
 
 Download a [zip file of  
-all pages](https://github.com/peterkaminski/ogm-2025-11-06/archive/refs/heads/main.zip)  
+all pages](https://github.com/peterkaminski/ogm-2025-11-13/archive/refs/heads/main.zip)  
 for Obsidian or LLMs.
 
 **WORK IN PROGRESS:  
