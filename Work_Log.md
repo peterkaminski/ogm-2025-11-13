@@ -6,6 +6,75 @@ Newest entries at the top, separated by horizontal rules.
 
 ---
 
+## November 14, 2025 - Attribution Error Correction and Typo Fix
+
+### Problem Identified
+
+User noticed two issues:
+1. Typo: "Stacy" should be "Stacey" (3 instances)
+2. Serious misattribution in **Stacey Druss.md**: The "Fear of Asking Questions About Illness" section incorrectly attributed statements to Stacey that she was actually making ABOUT other people
+
+### The Error
+
+**What the page said:** That Stacey herself was afraid to ask questions about illness and didn't have tools to behave around people who are unwell.
+
+**What Stacey actually said (lines 967-1053):** She was explaining why OTHER people don't ask questions about illness (specifically responding to Gil's story about people not asking about his wife Jane's health). She said: "Sometimes people are afraid to hear the answers, and they're so uncomfortable with sickness, and they don't want to know... sometimes really caring, loving people are just so uncomfortable with feelings, and don't know what to say."
+
+**Then Stacey said about HERSELF:** "I tend to be somebody… I will ask the question, Because I don't want to make up a story in my head. It's usually, I've found in my life, it's better to ask the question and know for sure than to just imagine what the answer is."
+
+### How This Error Occurred
+
+**Root cause analysis:**
+
+During the systematic enrichment phase (reading transcript lines 1000-2000), I misread the context and attribution. I saw Stacey discussing fear and discomfort around illness and incorrectly assumed she was speaking about her own experience, when she was actually analyzing other people's behavior.
+
+**Contributing factors:**
+1. **Reading speed** - Processing 2,600 lines of transcript content quickly
+2. **Context collapse** - Not carefully tracking who was speaking about whom
+3. **Confirmation bias** - The section seemed to fit the "vulnerability" framing, so I didn't question it
+4. **First-person assumption** - When a speaker discusses emotions/experiences, I may have defaulted to assuming self-reference
+
+**What should have prevented this:**
+- More careful reading of pronouns ("they" vs "I")
+- Checking the full context (she explicitly contrasts others' behavior with her own)
+- Re-reading sections when creating quotes
+- Line-by-line verification for biographical claims
+
+### Corrections Made
+
+**Files corrected:**
+1. **Stacey Druss.md** - Complete rewrite of that section:
+   - Old title: "Fear of Asking Questions About Illness"
+   - New title: "Understanding Why Others Don't Ask About Illness"
+   - Added new section: "Her Own Approach: Asking to Avoid Stories"
+   - Now accurately reflects that she DOES ask questions to avoid making up stories
+   - Properly attributes the fear/discomfort to others, not to Stacey
+
+2. **Typo fixes** (Stacy → Stacey):
+   - Stacey Druss.md (1 instance)
+   - Curiosity as Social Practice.md (1 instance)
+   - Genuine vs Performative Curiosity.md (1 instance)
+
+### Lessons Learned
+
+**For future enrichment work:**
+1. **Slow down on biographical claims** - Any statement about what a person feels/thinks deserves careful verification
+2. **Track pronouns carefully** - "They" vs "I" vs "we" matters enormously
+3. **Look for contrasts** - When speakers say "some people... but I..." pay special attention
+4. **Re-read before committing** - Biographical sections deserve extra verification pass
+5. **Trust but verify** - Even when reading seems clear, check the actual transcript lines
+
+**Quality principle established:** Misattributing someone's words or experiences is one of the most serious errors in this type of documentation. Participant pages must accurately represent what people said about themselves, not what they said about others.
+
+### Impact
+
+This error was caught before wider distribution but serves as a reminder that:
+- Systematic reading and enrichment, while comprehensive, requires careful attribution tracking
+- The participant pages are biographical/testimonial, not just thematic, and deserve extra care
+- User review is essential for catching these kinds of context-collapse errors
+
+---
+
 ## November 14, 2025 - Systematic Transcript Enrichment
 
 ### Objective

@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="https://unpkg.com/bluesky-comments@0.9.0/dist/bluesky-comments.css">
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
-    <script src="//lunr-index-1763098526.0832841.js"></script>
+    <script src="//lunr-index-1763128510.4935193.js"></script>
     <script>var index = lunr.Index.load(lunr_index)</script>
     
     
-    <script src="//lunr-posts-1763098526.0832841.js"></script>
+    <script src="//lunr-posts-1763128510.4935193.js"></script>
     <script> function randomPageLink() { return "/"+lunr_posts[Math.floor(Math.random() * lunr_posts.length)].link; } </script>
     
   </head>
@@ -81,6 +81,74 @@ AUTHORITATIVE INFORMATION.</strong></p>
       <h1>Work Log</h1>
 <p>Development journal for the OGM Curiosity Call Wiki, November 13-14, 2025.</p>
 <p>Newest entries at the top, separated by horizontal rules.</p>
+<hr />
+<h2>November 14, 2025 - Attribution Error Correction and Typo Fix</h2>
+<h3>Problem Identified</h3>
+<p>User noticed two issues:</p>
+<ol>
+<li>Typo: "Stacy" should be "Stacey" (3 instances)</li>
+<li>Serious misattribution in <strong>Stacey Druss.md</strong>: The "Fear of Asking Questions About Illness" section incorrectly attributed statements to Stacey that she was actually making ABOUT other people</li>
+</ol>
+<h3>The Error</h3>
+<p><strong>What the page said:</strong> That Stacey herself was afraid to ask questions about illness and didn't have tools to behave around people who are unwell.</p>
+<p><strong>What Stacey actually said (lines 967-1053):</strong> She was explaining why OTHER people don't ask questions about illness (specifically responding to Gil's story about people not asking about his wife Jane's health). She said: "Sometimes people are afraid to hear the answers, and they're so uncomfortable with sickness, and they don't want to know... sometimes really caring, loving people are just so uncomfortable with feelings, and don't know what to say."</p>
+<p><strong>Then Stacey said about HERSELF:</strong> "I tend to be somebody… I will ask the question, Because I don't want to make up a story in my head. It's usually, I've found in my life, it's better to ask the question and know for sure than to just imagine what the answer is."</p>
+<h3>How This Error Occurred</h3>
+<p><strong>Root cause analysis:</strong></p>
+<p>During the systematic enrichment phase (reading transcript lines 1000-2000), I misread the context and attribution. I saw Stacey discussing fear and discomfort around illness and incorrectly assumed she was speaking about her own experience, when she was actually analyzing other people's behavior.</p>
+<p><strong>Contributing factors:</strong></p>
+<ol>
+<li><strong>Reading speed</strong> - Processing 2,600 lines of transcript content quickly</li>
+<li><strong>Context collapse</strong> - Not carefully tracking who was speaking about whom</li>
+<li><strong>Confirmation bias</strong> - The section seemed to fit the "vulnerability" framing, so I didn't question it</li>
+<li><strong>First-person assumption</strong> - When a speaker discusses emotions/experiences, I may have defaulted to assuming self-reference</li>
+</ol>
+<p><strong>What should have prevented this:</strong></p>
+<ul>
+<li>More careful reading of pronouns ("they" vs "I")</li>
+<li>Checking the full context (she explicitly contrasts others' behavior with her own)</li>
+<li>Re-reading sections when creating quotes</li>
+<li>Line-by-line verification for biographical claims</li>
+</ul>
+<h3>Corrections Made</h3>
+<p><strong>Files corrected:</strong></p>
+<ol>
+<li>
+<p><strong>Stacey Druss.md</strong> - Complete rewrite of that section:</p>
+<ul>
+<li>Old title: "Fear of Asking Questions About Illness"</li>
+<li>New title: "Understanding Why Others Don't Ask About Illness"</li>
+<li>Added new section: "Her Own Approach: Asking to Avoid Stories"</li>
+<li>Now accurately reflects that she DOES ask questions to avoid making up stories</li>
+<li>Properly attributes the fear/discomfort to others, not to Stacey</li>
+</ul>
+</li>
+<li>
+<p><strong>Typo fixes</strong> (Stacy → Stacey):</p>
+<ul>
+<li>Stacey Druss.md (1 instance)</li>
+<li>Curiosity as Social Practice.md (1 instance)</li>
+<li>Genuine vs Performative Curiosity.md (1 instance)</li>
+</ul>
+</li>
+</ol>
+<h3>Lessons Learned</h3>
+<p><strong>For future enrichment work:</strong></p>
+<ol>
+<li><strong>Slow down on biographical claims</strong> - Any statement about what a person feels/thinks deserves careful verification</li>
+<li><strong>Track pronouns carefully</strong> - "They" vs "I" vs "we" matters enormously</li>
+<li><strong>Look for contrasts</strong> - When speakers say "some people... but I..." pay special attention</li>
+<li><strong>Re-read before committing</strong> - Biographical sections deserve extra verification pass</li>
+<li><strong>Trust but verify</strong> - Even when reading seems clear, check the actual transcript lines</li>
+</ol>
+<p><strong>Quality principle established:</strong> Misattributing someone's words or experiences is one of the most serious errors in this type of documentation. Participant pages must accurately represent what people said about themselves, not what they said about others.</p>
+<h3>Impact</h3>
+<p>This error was caught before wider distribution but serves as a reminder that:</p>
+<ul>
+<li>Systematic reading and enrichment, while comprehensive, requires careful attribution tracking</li>
+<li>The participant pages are biographical/testimonial, not just thematic, and deserve extra care</li>
+<li>User review is essential for catching these kinds of context-collapse errors</li>
+</ul>
 <hr />
 <h2>November 14, 2025 - Systematic Transcript Enrichment</h2>
 <h3>Objective</h3>
@@ -632,7 +700,7 @@ The 95 orphan pages were created correctly as stubs because most topics were ind
     
     <div>Licensed under <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</div>
     
-    <div><em>Site last updated on Friday, November 14, 2025 at 05:35 UTC.</em></div>
+    <div><em>Site last updated on Friday, November 14, 2025 at 13:55 UTC.</em></div>
   </div>
 </footer>
 </body>

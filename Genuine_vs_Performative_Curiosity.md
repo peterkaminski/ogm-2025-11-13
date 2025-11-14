@@ -90,7 +90,7 @@ We know in our bodies when curiosity is genuine:
 
 This is **honest** - refusing to perform curiosity she doesn't feel. Pete affirmed:
 
-> "Well, you ask even better questions, Stacy."
+> "Well, you ask even better questions, Stacey."
 
 Better to ask fewer, genuine questions than many performative ones.
 
