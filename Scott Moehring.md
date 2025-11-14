@@ -92,6 +92,21 @@ He explored the relationship between noticing and curiosity:
 
 Scott added the concept of **"multi-perspectival humbleness"** to the [[Excalidraw]] board, contributing to [[Alex Kladitis]]'s points about considering multiple viewpoints.
 
+### ELIZA and Human-AI Interaction
+
+Scott brought up the [[ELIZA]] chatbot to illustrate how humans anthropomorphize AI:
+
+> "@Pete Kaminski Even the coders who developed the Macintosh psychotherapist still got sucked in to treating it like a person."
+
+He shared: https://en.wikipedia.org/wiki/ELIZA
+
+This highlighted the tendency to project human qualities onto AI systems, even among those who understand their limitations.
+
+## Links Shared
+
+- [[ELIZA]] - Wikipedia article on the early chatbot
+- DSRP Theory resources (referenced)
+
 ## Themes Scott Explored
 
 - [[Big Five Personality Traits]]

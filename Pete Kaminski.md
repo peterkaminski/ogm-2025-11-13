@@ -72,7 +72,6 @@ He noted that Japanese curiosity is balanced with:
 - Doc Searls article: [World Wide Puddle](https://doc.searls.com/2011/04/01/world-wide-puddle/)
 - [[Benjamin D. Santer]] - Wikipedia entry
 - French education system: [[Lycée]]
-- [[ELIZA]] chatbot
 - Washington Post: ["We analyzed 47,000 ChatGPT conversations. Here's what people really use it for."](https://www.washingtonpost.com/technology/2025/11/12/how-people-use-chatgpt-data/)
 
 ## Themes Pete Explored
