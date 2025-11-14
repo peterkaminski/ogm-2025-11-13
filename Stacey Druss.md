@@ -24,7 +24,7 @@ Stacey was refreshingly honest about her own practices:
 
 > "You know me, I'm probably the wrong person, because I'm not doing anything I don't want to do. I'm sorry, anybody. I don't probably don't care where you live, so somebody else will ask you. Forgive me! Forgive me."
 
-[[Pete Kaminski]] responded: "Well, you ask even better questions, Stacy."
+[[Pete Kaminski]] responded: "Well, you ask even better questions, Stacey."
 
 ### George Monbiot and Storytelling
 
@@ -38,21 +38,31 @@ She connected this to [[Gil Friend]]'s stories about people who don't ask questi
 
 This introduced the idea that **lack of experience** (not just youth) might explain apparent incuriosity.
 
-### Fear of Asking Questions About Illness
+### Understanding Why Others Don't Ask About Illness
 
-From the transcript, Stacey shared a vulnerable personal insight:
+Stacey offered insight into why people might not ask questions about illness, responding to [[Gil Friend]]'s story about friends not asking about his wife Jane's major health issues:
 
-> "I'm afraid to ask questions. I don't... I personally don't have the tools to know how to behave around people who are not well."
+> "Um, and as far as the people that were talking to Jane, Sometimes people are afraid to hear the answers, and they're so uncomfortable with sickness, and they don't want to know."
 
-> "So if... my approach might be I... I don't know what to ask. It doesn't mean I don't care, or I'm not curious, or I don't want to help. It's... I don't... I'm uncomfortable."
+> "And I wanted to throw that out, too, because sometimes really caring, loving people are just so uncomfortable with feelings, and don't know what to say."
 
-This reveals an important dimension: **Sometimes apparent incuriosity is actually discomfort or fear**.
+This reveals an important dimension: **Sometimes apparent incuriosity in others is actually discomfort or fear**.
 
-Stacey's honesty shows:
-- Not asking ≠ not caring
-- Silence can come from not knowing how to ask appropriately
-- Cultural/social anxiety around illness prevents inquiry
-- We need better "tools" for asking sensitive questions
+Stacey's analysis shows:
+- Caring people may avoid questions because they're uncomfortable with illness
+- Fear of hearing difficult answers prevents inquiry
+- Not knowing what to say creates paralysis
+- Silence doesn't necessarily mean not caring
+
+### Her Own Approach: Asking to Avoid Stories
+
+Importantly, Stacey clarified her own different approach:
+
+> "Um, I tend to be somebody… I will ask the question, Because I don't want to make up a story in my head."
+
+> "It's usually, I've found in my life, it's better to ask the question and know for sure than to just imagine what the answer is."
+
+Stacey prefers to ask directly rather than fill in gaps with imagined narratives - connecting back to [[George Monbiot]]'s observation that "where we don't have a story, we make up one."
 
 ### The Crucial Distinction: Noticing vs Curiosity
 

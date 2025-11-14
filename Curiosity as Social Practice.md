@@ -26,7 +26,7 @@ Key points:
 
 Pete suggested there's a **simple set of questions** anyone can learn:
 
-> "Well, you ask even better questions, Stacy. But, you know, there's a set of, like, 5 questions that even a man can learn, you know, ask this question, really care about the answer, and there's probably a follow-up question."
+> "Well, you ask even better questions, Stacey. But, you know, there's a set of, like, 5 questions that even a man can learn, you know, ask this question, really care about the answer, and there's probably a follow-up question."
 
 Examples:
 - How's your life?
