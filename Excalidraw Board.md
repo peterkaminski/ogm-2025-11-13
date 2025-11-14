@@ -9,11 +9,7 @@ https://excalidraw.com/#room=f2fc1ed4dad8ce25b385,JsA211Hzb_1dUSb-gwYctQ
 
 ## Board Preview
 
-Click the image below to view the full-size snapshot:
-
-[![Excalidraw Board Snapshot](Call%20Artifacts/excalidraw-snapshot-2025-11-13.png)](Call%20Artifacts/excalidraw-snapshot-2025-11-13.png)
-
-**[View full-size local snapshot](Call%20Artifacts/excalidraw-snapshot-2025-11-13.png)** (1.8MB PNG)
+**[View full-size local snapshot](call_artifacts/excalidraw-snapshot-2025-11-13.png)** (1.8MB PNG)
 
 ## How the Board Was Used
 
