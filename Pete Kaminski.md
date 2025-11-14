@@ -14,9 +14,9 @@ Pete argued against the simple narrative of declining curiosity:
 
 ### Curiosity as Social Practice
 
-One of Pete's most significant contributions was his personal story of **learning curiosity as a social skill** from his wife Joanne:
+One of Pete's most significant contributions was his personal story of **learning curiosity as a social skill** from his wife Johanne:
 
-> "I learned from Joanne, my wife, to be able to be curious and have a conversation with somebody, even if maybe you don't care in the grander scheme of things, or you're shy, or whatever."
+> "I learned from Johanne, my wife, to be able to be curious and have a conversation with somebody, even if maybe you don't care in the grander scheme of things, or you're shy, or whatever."
 
 He described himself as "kind of shy" but learned that:
 
@@ -24,7 +24,7 @@ He described himself as "kind of shy" but learned that:
 
 ### Key Insight on Gender and Curiosity
 
-Pete shared Joanne's observation that **men are acculturated to not be curious**, especially about women:
+Pete shared Johanne's observation that **men are acculturated to not be curious**, especially about women:
 
 > "In a way, it was a kind of women's work, that she doesn't mind doing because it's not the worst thing that women have to do in this world."
 
@@ -94,6 +94,6 @@ He noted that Japanese curiosity is balanced with:
 
 ## Related People Mentioned
 
-- **Joanne** - Pete's wife who taught him social curiosity
+- **Johanne** - Pete's wife who taught him social curiosity
 - [[Doc Searls]] - Blogger and author
 - [[Benjamin D. Santer]] - Climate scientist

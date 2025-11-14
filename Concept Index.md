@@ -8,6 +8,7 @@ Complete index of all pages in this wiki, organized by category.
 - [[Details About This Wiki]] - How this wiki is organized
 - [[Concept Index]] - This page
 - [[Work Log]] - Development journal
+- [[Excalidraw Board]] - Visual collaboration whiteboard from the call
 
 ## Participants
 
@@ -144,7 +145,7 @@ Complete index of all pages in this wiki, organized by category.
 - [[Doc Searls]] - Blogger and technology thinker
 - [[George Monbiot]] - Writer and environmental activist
 - **Einstein** - (referenced - quote about education)
-- **Joanne** - (referenced - Pete's wife who taught him social curiosity)
+- **Johanne** - (referenced - Pete's wife who taught him social curiosity)
 
 ## External Resources
 

@@ -91,7 +91,7 @@ This suggests much of what appears as "declining curiosity" might be **cultural 
 
 ## Gender and Curiosity
 
-[[Pete Kaminski]] shared insights from his wife Joanne:
+[[Pete Kaminski]] shared insights from his wife Johanne:
 
 > "Men are acculturated to not be curious, especially about women, about lots of stuff, right?"
 

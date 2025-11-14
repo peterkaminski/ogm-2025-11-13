@@ -47,7 +47,7 @@ This model illuminates [[Curiosity as Social Practice]]:
 - The **goal** of curiosity-as-game might be connection, learning, or something else
 
 ### Skill
-- [[Pete Kaminski]] learning social curiosity from Joanne shows it's a **skill**
+- [[Pete Kaminski]] learning social curiosity from Johanne shows it's a **skill**
 - Some people haven't developed the skill but can learn
 
 ## Application to the Discussion

@@ -50,8 +50,10 @@ The central question: **Are we experiencing a decline in curiosity, or are we si
 
 ## Resources
 
-For a complete overview of all topics discussed, see the [[Concept Index]].
+**Visual Collaboration:**
+- [[Excalidraw Board]] - The collaborative whiteboard created during the call
 
-For details on how this wiki is organized, see [[Details About This Wiki]].
-
-To track the development of this wiki, see the [[Work Log]].
+**Wiki Navigation:**
+- [[Concept Index]] - Complete overview of all topics discussed
+- [[Details About This Wiki]] - How this wiki is organized
+- [[Work Log]] - Development history of this wiki

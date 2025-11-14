@@ -12,13 +12,13 @@ One of the most important insights from the call was [[Pete Kaminski]]'s distinc
 
 Pete described himself as "kind of shy" and shared:
 
-> "I learned from Joanne, my wife, to be able to be curious and have a conversation with somebody, even if maybe you don't care in the grander scheme of things, or you're shy, or whatever."
+> "I learned from Johanne, my wife, to be able to be curious and have a conversation with somebody, even if maybe you don't care in the grander scheme of things, or you're shy, or whatever."
 
 > "It's just a rote thing, right? It's just human and polite to be sitting with somebody and to ask them, you know, how's your life? Do you have pets? Do you have friends? Where did you grow up? Those kinds of things. It's not hard to do."
 
 Key points:
 - Pete **wasn't taught this** by parents, peers, or school
-- He learned it **quickly from Joanne**
+- He learned it **quickly from Johanne**
 - It's a **teachable skill**, not just innate trait
 - It helps **everybody**, not just the person being asked
 
@@ -63,7 +63,7 @@ The progression:
 
 ### Women's Work
 
-Pete shared Joanne's observation:
+Pete shared Johanne's observation:
 
 > "Men are acculturated to not be curious, especially about women, about lots of stuff, right? And so in a way, it was a kind of women's work, that she doesn't mind doing because it's not the worst thing that women have to do in this world."
 

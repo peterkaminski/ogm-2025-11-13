@@ -18,7 +18,7 @@ Curiosity from those with more power can feel like:
 
 ## Gender and Power
 
-[[Pete Kaminski]] shared from Joanne:
+[[Pete Kaminski]] shared from Johanne:
 
 > "Men are acculturated to not be curious, especially about women."
 

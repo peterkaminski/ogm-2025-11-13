@@ -72,7 +72,7 @@ How does this shape curiosity?
 
 ## Cross-Generational Understanding
 
-[[Pete Kaminski]]'s learning social curiosity from Joanne shows:
+[[Pete Kaminski]]'s learning social curiosity from Johanne shows:
 - Curiosity practices can be learned across generations
 - Different generations have different baseline skills
 - Teaching/learning can flow both directions

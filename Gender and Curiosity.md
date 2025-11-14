@@ -2,13 +2,13 @@
 
 **Note:** This topic was mentioned during the call but not discussed in depth.
 
-[[Pete Kaminski]] shared insights from his wife Joanne about how gender shapes curiosity and questioning behaviors.
+[[Pete Kaminski]] shared insights from his wife Johanne about how gender shapes curiosity and questioning behaviors.
 
 ## Key Observations
 
 ### Men and Curiosity
 
-Joanne observed that:
+Johanne observed that:
 
 > "Men are acculturated to not be curious, especially about women, about lots of stuff."
 
