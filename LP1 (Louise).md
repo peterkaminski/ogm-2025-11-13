@@ -12,6 +12,44 @@ Louise brought a European educational perspective and emphasized the importance 
 
 > "And remember the answer!!!" (On the importance of truly listening in conversations)
 
+### Detailed Teaching Observations: Declining Attention
+
+From the transcript, Louise shared extensive observations from her teaching practice:
+
+> "I'm a teacher. I've been teaching for 40 years, and I've seen students... and there's a huge difference. Students can't pay attention for more than 30 seconds anymore."
+
+> "They can't... they don't calculate anymore. They use their calculators all the time. They don't even make the effort of... I mean, it's not even curiosity anymore. They don't want to even try."
+
+#### The Calculator Problem
+
+Louise observed that students' calculator dependency reveals something deeper than just a computational shortcut:
+
+> "They use their calculators all the time. They don't even make the effort."
+
+This isn't about math - it's about **not wanting to try**. The calculator becomes a symbol of:
+- Avoiding cognitive effort
+- Not engaging with process
+- Outsourcing thinking
+- Loss of curiosity about "how"
+
+#### Anxiety About Questions
+
+> "Some students, they're anxious when you ask them questions. They're afraid to be wrong. They're afraid to... They just... they freeze."
+
+Louise identified **anxiety** as a major barrier:
+- Fear of being wrong
+- Freezing when questioned
+- Performance pressure overwhelming curiosity
+- Questions perceived as threats, not invitations
+
+#### The 40-Year Perspective
+
+Louise's four decades of teaching give her a unique vantage point on how students have changed:
+- **Attention spans** dramatically shortened
+- **Willingness to try** has declined
+- **Anxiety** has increased
+- **Calculator dependency** as symptom of broader disengagement
+
 ### On Writing and Thinking
 
 Louise made a strong case for **writing as essential to curiosity**:

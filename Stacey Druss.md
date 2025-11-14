@@ -38,6 +38,40 @@ She connected this to [[Gil Friend]]'s stories about people who don't ask questi
 
 This introduced the idea that **lack of experience** (not just youth) might explain apparent incuriosity.
 
+### Fear of Asking Questions About Illness
+
+From the transcript, Stacey shared a vulnerable personal insight:
+
+> "I'm afraid to ask questions. I don't... I personally don't have the tools to know how to behave around people who are not well."
+
+> "So if... my approach might be I... I don't know what to ask. It doesn't mean I don't care, or I'm not curious, or I don't want to help. It's... I don't... I'm uncomfortable."
+
+This reveals an important dimension: **Sometimes apparent incuriosity is actually discomfort or fear**.
+
+Stacey's honesty shows:
+- Not asking ≠ not caring
+- Silence can come from not knowing how to ask appropriately
+- Cultural/social anxiety around illness prevents inquiry
+- We need better "tools" for asking sensitive questions
+
+### The Crucial Distinction: Noticing vs Curiosity
+
+Near the end of the call, Stacey made one of the most important conceptual contributions:
+
+> "I think we're... there's a little bit of a blurry line between the noticing and the curious, and I just want to remind everybody, we are all curious."
+
+> "With the noticing, I do believe there are people that they just don't notice. And, like, they may not have the ability to notice, and so if you don't notice in the first place, you can't be curious."
+
+> "Then there are people that notice and they're not curious, and there's a difference there."
+
+#### Stacey's Three Categories
+
+1. **People who don't notice** - May lack ability; curiosity impossible without noticing
+2. **People who notice but aren't curious** - Notice but don't investigate
+3. **People who notice and are curious** - Full engagement
+
+This distinction fundamentally reframes curiosity cultivation: **First teach noticing, then curiosity**.
+
 ### Noticing the Relationship
 
 Stacey made an important observation to [[Scott Moehring]]:

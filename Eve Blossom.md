@@ -28,6 +28,42 @@ Eve's powerful statement on the body's role in curiosity:
 - Somatic awareness creates **natural openings** rather than forced inquiry
 - Curiosity is about noticing "what is **present, possible, and previously unseen**"
 
+### Living in Places: Somatic Connection to Environment
+
+From the transcript, Eve expanded on how **living in specific places** deepens curiosity:
+
+> "I live in a lot of places. I live in my body, I live on planet Earth, and I live, um, in this specific place, uh, within this watershed."
+
+> "And so for me, uh, I'm drawn to open spaces. And not, um, I don't feel drawn to... asking other people's questions."
+
+This reveals Eve's approach to curiosity as **place-based and embodied** rather than abstract or purely intellectual.
+
+### Going to the Creek: Embodied Curiosity in Practice
+
+Eve shared a concrete example of somatic curiosity:
+
+> "going to the creek, looking at the tadpoles"
+
+This simple image captures her approach:
+- **Direct experience** over abstract learning
+- **Somatic engagement** with the natural world
+- **Present-moment awareness** of what's actually there
+- **Place-specific** curiosity rooted in watershed and ecology
+
+The creek and tadpoles aren't metaphors - they're the **actual practice** of embodied, place-based curiosity.
+
+### Somatic Living vs Abstract Inquiry
+
+Eve distinguished her approach from conventional curiosity:
+
+> "I don't feel drawn to... asking other people's questions."
+
+This suggests:
+- **Somatic curiosity** follows the body's authentic interests
+- **Not performing** curiosity to meet social expectations
+- **Authentic engagement** with what genuinely calls to us
+- **Place and body** as guides for what to investigate
+
 ### Teaching and Learning
 
 [[Gil Friend]] quoted Eve:

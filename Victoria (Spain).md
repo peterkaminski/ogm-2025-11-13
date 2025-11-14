@@ -29,9 +29,34 @@ Victoria served as co-organizer and managed the collaborative [[Excalidraw]] whi
 - Noted that AI tends to ignore European perspectives: **"AI always ignores us, Europeans, the middle ground"**
 - Recommended using [[Mistral AI]] for European perspectives
 
-### Tool Advocacy
+### Question Formulation Technique Advocacy
 
-- Strong advocate for the [[Question Formulation Technique]] from the [[Right Question Institute]]
+Victoria was the strongest advocate for the [[Question Formulation Technique]] during the call.
+
+Near the end, she made a crucial observation about the conversation:
+
+> "I love the conversation, I've learned a lot. But I don't think we have really... start to uncover half of... what Curiosity is about. Because we were explaining our hypothesis instead of asking questions."
+
+Her diagnosis: The group had been **sharing hypotheses** rather than **asking questions first**.
+
+She proposed using QFT for future sessions:
+
+> "I think we need to do something like that with a good focus question. And start asking the questions first. And then, like, playing with... these questions, prioritize, and then decide what to do."
+
+#### Greek Mythology Seminar Example
+
+Victoria shared a powerful real-world example where QFT transformed a stagnant seminar:
+
+> "I was attending a seminar... among people who were interested in learning about Greek mythology. The idea was that... We raised the theme, and one person was preparing the theme for the next session. And people would come with questions. Nobody did, nobody asked, of course."
+
+After introducing QFT:
+
+> "we had so many questions, and we were able, like, to really go in the direction we wanted, Because we ended with those lists of questions, prioritize them, decide what to do with them."
+
+The result: Instead of **standardized sessions** on "the topics everybody talks about," participants pursued **individual questions** and made sessions **richer for everybody**.
+
+### Other Tool Advocacy
+
 - Maintained the collaborative [[Excalidraw]] board throughout the session
 - Shared personal story about her father writing a Wikipedia article on calculation rules (took over a year)
 

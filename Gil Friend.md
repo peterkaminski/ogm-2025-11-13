@@ -36,11 +36,31 @@ Gil introduced the **etymology of curiosity**, sharing that it relates to **care
 
 > "Curiosity didn't begin as a quest for knowledge but as an act of care. Over time, we've separated inquiry from emotion, treating curiosity as a mental exercise. But its origins reveal a deeper truth: to be curious is to care enough to pay attention."
 
+### Pride and Prejudice: The Norms Question
+
+From the transcript, Gil shared reflections on social norms and boundaries:
+
+> "I just read Pride and Prejudice for the first time, and one of the themes through the whole thing is, you know, what you're supposed to talk about and what you're not supposed to talk about, and how you get in trouble if you violate norms."
+
+This connected to the curiosity question: **Which norms allow or suppress curiosity?**
+
+Gil then asked the fundamental question:
+
+> "Who's we, who's they?"
+
+This simple question cuts to the heart of group identity and belonging:
+- Who defines the norms?
+- Who decides what questions are acceptable?
+- Who gets to be curious, and about what?
+- Who is excluded by normative boundaries?
+
 ### Cultural and Social Dimensions
 
 - Suggested that discomfort in conversations might stem from **"interacting across different assumption sets"**
 - Noted: **"All games have rules. Cultures/subcultures/social classes have norms."**
 - Asked: **"Possible more general case than 'kids these days': someone different (generation, gender, geography, etc etc…)?"**
+- The **Pride and Prejudice** observation: Victorian norms strictly regulated what could be discussed, and violations had social consequences
+- **"Who's we, who's they?"** - The fundamental question of group boundaries and normative power
 
 ### Personal Philosophy
 
