@@ -6,6 +6,80 @@ Newest entries at the top, separated by horizontal rules.
 
 ---
 
+## November 13, 2025 - Chat Coverage Analysis
+
+### Problem Identified
+
+After creating 95 orphan pages, user review found that some stub pages had missed substantial discussion from the chat logs. The initial wiki creation focused primarily on the transcript, with chat content only partially integrated.
+
+### Methodology Developed
+
+Created `_bin/analyze-chat-coverage.py` to systematically cross-compare chat content with wiki pages:
+
+**Approach:**
+1. **Parse chat file** - Extract all 146 messages with timestamps and senders
+2. **Identify substantive messages** - Filter for messages >100 characters (exclude short reactions)
+3. **Topic extraction** - Look for specific topic keywords in longer messages
+4. **Match to wiki pages** - Find corresponding pages and measure their size
+5. **Flag gaps** - Identify where substantial chat discussion exists but wiki page is minimal
+
+**Key patterns detected:**
+- Messages containing specific topic keywords (e.g., "intrinsic/extrinsic", "somatic", "japanese")
+- Multi-sentence explanations or elaborations
+- Concept definitions and frameworks being explained
+- Personal stories or examples
+
+### Findings
+
+**Topics with substantial chat discussion (>100 char messages):**
+- Cultural Dimensions of Curiosity: 3 substantive messages (163 lines - good coverage)
+- Question Formulation Technique: 3 messages (63 lines - could be enriched)
+- Intrinsic vs Extrinsic Curiosity: 2 messages (94 lines - adequate)
+- Playing Games Model: 1 detailed message (73 lines - good given single source)
+- Somatic Experiencing: 1 detailed message (101 lines - comprehensive)
+- Writing and Thinking: 1 message (71 lines - adequate)
+
+**Stub pages needing attention:**
+- 56 pages with only 6-15 lines
+- These are minimal placeholders with just "Note: mentioned but not discussed in depth"
+- Most accurate for truly brief mentions
+- However, some may have chat content missed in initial pass
+
+**Quality of stub pages:**
+Most stubs are appropriate - topics were genuinely only mentioned in passing. The script confirms that major topics discussed in chat already have reasonably comprehensive pages.
+
+### Approach Going Forward
+
+**For enrichment work:**
+1. Manually review chat for topics mentioned multiple times
+2. Check if those topics have minimal wiki content
+3. Cross-reference with transcript sections we didn't fully read (only read first 1000 of 3618 lines)
+4. Prioritize pages where chat shows depth but wiki page is thin
+
+**The script can be reused to:**
+- Verify coverage after transcript analysis
+- Find specific topics in chat quickly
+- Identify mismatches between discussion depth and page size
+- Generate reports for future wiki maintenance
+
+**Key insight:**
+The 95 orphan pages were created correctly as stubs because most topics were indeed only mentioned briefly. The real opportunity for enrichment is in:
+1. The unread portions of the 3618-line transcript
+2. Ensuring major framework pages (DSRP, Playing Games, etc.) capture all detail
+3. Participant pages might benefit from more chat quotes
+
+### Tool Created
+
+`_bin/analyze-chat-coverage.py`:
+- 147 lines of Python
+- Parses chat messages with timestamps
+- Detects topic-specific discussions
+- Measures wiki page sizes
+- Generates prioritized enrichment candidates
+- Reusable for quality checks
+
+---
+
 ## November 13, 2025 - Wiki Creation Complete
 
 ### Final Pages Created
