@@ -8,6 +8,16 @@ This call brought together a diverse group of thinkers to explore the nature of 
 
 The central question: **Are we experiencing a decline in curiosity, or are we simply observing different manifestations of this fundamental human trait?**
 
+## Explore This Wiki
+
+**New here? → [[Start Here]]** - Choose your path based on your interests
+
+**Browse by:**
+- 👥 **[[Participants Hub]]** - Meet all 16 contributors
+- 💡 **[[Themes Hub]]** - Explore 7 major discussion areas
+- 🛠️ **[[Frameworks Hub]]** - Tools and methodologies
+- 🔤 **[[Alphabetical Index]]** - Find pages A-Z
+
 ## Key Themes
 
 - The **etymology of curiosity** and its connection to care and attention
